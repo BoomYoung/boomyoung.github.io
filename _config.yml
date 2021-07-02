@@ -153,7 +153,7 @@ pageview:
   leancloud:
     app_id    : 4Jit3WLFQT4RdXeOLhJxTJul-gzGzoHsz # LeanCloud App id
     app_key   : rH3y4j5oE8CRbC3HFXhUV5NH # LeanCloud App key
-    app_class : Jekyll # LeanCloud App class
+    app_class : Pageview # LeanCloud App class
 
 
 ## => Search
