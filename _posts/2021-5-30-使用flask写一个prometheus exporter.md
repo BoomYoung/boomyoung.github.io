@@ -3,8 +3,8 @@ title: prometheus-使用python自定义exporter开发实例
 layout: article
 tags: 
   - prometheus
-    监控
-    flask
+  - 监控
+  - flask
 mode: immersive
 lang: zh-Hans
 outhor: Boom Young
