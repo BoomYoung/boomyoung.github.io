@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Language" content="zh-cn"/>
+
+<head>
+    <style type="text/css">
+        table, th {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        table, td {
+            border: 1px solid black;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        table.singlineBorder {
+            border-collapse: collapse;
+        }
+
+        table.niceTable {
+            border-collapse: collapse;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        }
+
+        table.niceTable td, table.niceTable th {
+            border: 1px solid #3d3b3b;
+        }
+
+        table th {
+            width: auto;
+            background-color: #cedcdf;
+        }
+
+        table.niceTable th {
+            color: black;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+<table cellpadding="5px" class="niceTable">
+    
+<tr>
+    <th style="min-width: 40px;">状态</th>
+    <th style="min-width: 40px;">告警项</th>
+    <th style="min-width: 40px;">等级</th>
+    <th style="min-width: 50px;">告警IP</th>
+    <th style="min-width: 200px;">返回信息</th>
+    <th style="min-width: 40px;">机房</th>
+    <th style="min-width: 40px;">运维</th>
+    <th style="min-width: 40px;">开发</th>
+    <th style="min-width: 40px;">用途</th>
+    <th style="min-width: 20px;">告警时间</th>
+</tr>
+
+    
+        <tr>
+            <td>告警</td>
+            <td style="text-align: left;">森华-新架构离线转写-离线转写入口拨测-172.21.164.150:80-拨测成功率</td>
+            <td class="text-center" style="background-color: E45959">火急</td>
+            <td>172.21.164.150</td>
+            <td>80 %,500 2次 ,['0', '0', '0', '0', '0', '0', '0', {'code': 500, 'info': "HTTPConnectionPool(host='172.21.164.150', port=80): Read timed out. (read timeout=8)"}, '0', {'code': 500, 'info': "HTTPConnectionPool(host='172.21.164.150', port=80): Read timed out. (read timeout=8)"}]</td>
+            <td>北京大族</td>
+            <td>候晨</td>
+            <td>黄元举</td>
+            <td>新架构-入口层-公网入口-kong;</td>
+            <td>2021.08.02  10:45:17</td>
+        </tr>
+    
+
+    
+        <tr>
+            <td>告警</td>
+            <td style="text-align: left;">森华-新架构离线转写-离线转写入口拨测-172.21.164.32:80-拨测成功率</td>
+            <td class="text-center" style="background-color: E45959">火急</td>
+            <td>172.21.164.32</td>
+            <td>80 %,500 2次 ,['0', '0', '0', '0', '0', '0', '0', '0', {'code': 500, 'info': "HTTPConnectionPool(host='172.21.164.32', port=80): Read timed out. (read timeout=8)"}, {'code': 500, 'info': "HTTPConnectionPool(host='172.21.164.32', port=80): Read timed out. (read timeout=8)"}]</td>
+            <td>北京大族</td>
+            <td>候晨</td>
+            <td>黄元举</td>
+            <td>新架构-入口层-公网入口-kong;</td>
+            <td>2021.08.02  10:45:34</td>
+        </tr>
+    
+
+    
+        <tr>
+            <td>告警</td>
+            <td style="text-align: left;">森华-新架构离线转写-离线入口-数据库查询-ost-172.21.164.31:80-拨测成功率</td>
+            <td class="text-center" style="background-color: E97659">高</td>
+            <td>172.21.164.31</td>
+            <td>80 %,500 2次 ,['0', '0', '0', '0', '0', '0', '0', '0', {'code': 500, 'info': "HTTPConnectionPool(host='172.21.164.31', port=80): Read timed out. (read timeout=8)"}, {'code': 500, 'info': "HTTPConnectionPool(host='172.21.164.31', port=80): Read timed out. (read timeout=8)"}]</td>
+            <td>北京大族</td>
+            <td>候晨</td>
+            <td>黄元举</td>
+            <td>新架构-入口层-公网入口-kong;</td>
+            <td>2021.08.02  10:45:26</td>
+        </tr>
+    
+
+    
+        <tr>
+            <td>告警</td>
+            <td style="text-align: left;">森华-新架构离线转写-离线入口-数据库查询-ost-172.21.111.34:9005-拨测成功率</td>
+            <td class="text-center" style="background-color: E97659">高</td>
+            <td>172.21.111.34</td>
+            <td>80 %,500 2次 ,['0', '0', '0', '0', '0', '0', '0', '0', {'code': 500, 'info': "HTTPConnectionPool(host='172.21.111.34', port=9005): Read timed out. (read timeout=8)"}, {'code': 500, 'info': "HTTPConnectionPool(host='172.21.111.34', port=9005): Read timed out. (read timeout=8)"}]</td>
+            <td>北京大族</td>
+            <td>候晨</td>
+            <td>黄元举</td>
+            <td>新架构-转写-实时转写-业务层;新架构-转写-非实时转写-业务层;新架构-转写-非实时转写-通用;</td>
+            <td>2021.08.02  10:45:31</td>
+        </tr>
+    
+
+    
+        <tr>
+            <td>已介入</td>
+            <td style="text-align: left;">森华-新架构离线转写-离线转写入口拨测-172.21.111.34:9005-拨测成功率</td>
+            <td class="text-center" style="background-color: #87e296">火急</td>
+            <td>172.21.111.34</td>
+            <td>60 %,500 2次 ,['0', '0', '0', '0', '0', '0', '0', '0', {'code': 500, 'info': "HTTPConnectionPool(host='172.21.111.34', port=9005): Read timed out. (read timeout=8)"}, {'code': 500, 'info': "HTTPConnectionPool(host='172.21.111.34', port=9005): Read timed out. (read timeout=8)"}]</td>
+            <td>北京大族</td>
+            <td>候晨</td>
+            <td>黄元举</td>
+            <td>新架构-转写-实时转写-业务层;新架构-转写-非实时转写-业务层;新架构-转写-非实时转写-通用;</td>
+            <td>2021.08.02  10:43:48</td>
+        </tr>
+    
+
+
+</table>
+<br><br>
+
+
+    
+        <div style="display: inline"><img width="460" height="200" src="cid:21790881" alt="21790881"></div>
+    
+        <div style="display: inline"><img width="460" height="200" src="cid:21786672" alt="21786672"></div>
+    
+        <div style="display: inline"><img width="460" height="200" src="cid:5089466" alt="5089466"></div>
+    
+
+
+</body>
